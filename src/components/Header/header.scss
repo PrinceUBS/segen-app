@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  background-color: #e5f4f9;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menuBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.press-effect {
+  display: flex;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.press-effect:active {
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.btn-text {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.badge {
+  background: #00aee1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 5px;
+  top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 11px;
+  text-align: center;
+  color: #000000;
+  letter-spacing: -0.3px;
+}
