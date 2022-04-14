@@ -32,6 +32,7 @@
   color: #000000;
   font-family: "Jost", sans-serif;
   margin-right: 2%;
+  user-select: none;
 }
 
 .search-input {
@@ -116,16 +117,16 @@
   position: absolute;
   right: 0px;
   top: 0%;
-  background-color: #E5F4F9;
+  background-color: #e5f4f9;
   height: "100%";
   padding-top: 80px;
-  padding-bottom: 80px
+  padding-bottom: 80px;
 }
 
 .next-btn:active {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
-  background-color: #E5F4F9;
+  background-color: #e5f4f9;
 }
 .prev-btn {
   border-radius: 5px;
@@ -139,14 +140,57 @@
   position: absolute;
   left: 0px;
   top: 0%;
-  background-color: #E5F4F9;
+  background-color: #e5f4f9;
   height: "100%";
   padding-top: 80px;
-  padding-bottom: 80px
+  padding-bottom: 80px;
 }
 
 .prev-btn:active {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
-  background-color: #E5F4F9;
+  background-color: #e5f4f9;
+}
+
+.bg-1 {
+  position: absolute;
+  right: 0px;
+  top: 34vh;
+  user-select: none;
+}
+.bg-2 {
+  position: absolute;
+  right: 0px;
+  top: 35vh;
+  user-select: none;
+}
+.bg-3 {
+  position: absolute;
+  right: 40%;
+  top: 57vh;
+  user-select: none;
+}
+.bg-4 {
+  position: absolute;
+  right: 0px;
+  top: 85vh;
+  user-select: none;
+}
+.bg-5 {
+  position: absolute;
+  right: 0px;
+  top: 87vh;
+  user-select: none;
+}
+.bg-6 {
+  position: absolute;
+  right: 0px;
+  top: 107vh;
+  user-select: none;
+}
+.bg-7 {
+  position: absolute;
+  right: 40%;
+  top: 122vh;
+  user-select: none;
 }

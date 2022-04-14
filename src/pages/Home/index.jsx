@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BOX_IC, DOC_IC, DOWN_ARROW_IC, RIGHT_ARROW_IC, SEARCH_IC } from '../../assets';
+import { BOX_IC, DOC_IC, DOWN_ARROW_IC, RIGHT_ARROW_IC, SEARCH_IC, BG_1, BG_2, BG_3, BG_4, BG_5, BG_6, BG_7 } from '../../assets';
 import "./home.css";
 import { SearchInput } from '../../common/styles';
 import { ContactCard, ImgSlider, NewsCard, ProductAdCard, SliderIndicator } from '../../components';
@@ -28,6 +28,14 @@ const Index = () => {
                 <DOWN_ARROW_IC />
             </div>
 
+            <BG_1 className='bg-1' />
+            <BG_2 className='bg-2' />
+            <BG_3 className='bg-3' />
+            <BG_4 className='bg-4' />
+            <BG_5 className='bg-5' />
+            <BG_6 className='bg-6' />
+            <BG_7 className='bg-7' />
+
             <SearchInput
                 fullWidth
                 id="outlined-search"
@@ -41,9 +49,11 @@ const Index = () => {
             />
 
             <ImgSlider childComp={adArray.map((item, index) => {
-                return (<div className="ad-slider">
-                    <img src={item.image} alt="ad" key={index} className="ad-img" />
-                </div>);
+                return (
+                    <div className="ad-slider">
+                        <img src={item.image} alt="ad" key={index} className="ad-img" />
+                    </div>
+                );
             })} />
 
             <p className='title-text'>Latest Product</p>
@@ -56,6 +66,7 @@ const Index = () => {
                 emulateTouch
                 autoPlay
                 infiniteLoop
+                interval={10000}
                 renderIndicator={(onClickHandler, isSelected, index, label) => {
                     return <SliderIndicator
                         onClickHandler={onClickHandler}

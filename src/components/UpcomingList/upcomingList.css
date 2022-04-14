@@ -7,6 +7,7 @@
   margin-top: 12px;
   margin-bottom: 12px;
   flex-direction: column;
+  z-index: 2;
 }
 .sub-container {
   display: flex;
@@ -107,6 +108,7 @@
   cursor: pointer;
   user-select: none;
   margin: 5px 0px 15px 0px;
+  z-index: 3;
 }
 .view-btn:active {
   padding: 5px 15px 5px 15px;

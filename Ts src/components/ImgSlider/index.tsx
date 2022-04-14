@@ -16,6 +16,7 @@ const Index = ({ childComp }: Props) => {
             emulateTouch
             autoPlay
             infiniteLoop
+            interval={10000}
             renderIndicator={(onClickHandler, isSelected, index, label) => {
                 return <SliderIndicator onClickHandler={onClickHandler} isSelected={isSelected} index={index} label={label} />
             }}

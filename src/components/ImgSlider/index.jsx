@@ -10,6 +10,7 @@ const Index = ({ childComp }) => {
             showThumbs={false}
             emulateTouch
             autoPlay
+            interval={10000}
             infiniteLoop
             renderIndicator={(onClickHandler, isSelected, index, label) => {
                 return <SliderIndicator onClickHandler={onClickHandler} isSelected={isSelected} index={index} label={label} />;
