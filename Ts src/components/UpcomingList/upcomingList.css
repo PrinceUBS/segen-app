@@ -1,0 +1,136 @@
+.main-container {
+  padding: 5%;
+  background-color: #ffffff;
+  border-radius: 7px;
+  width: 90%;
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  flex-direction: column;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tag {
+  background: #d8edf4;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.tag-txt {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #1d1d1b;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dark-line {
+  background-color: #a2b4b9;
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.id-text {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: #e56606;
+  margin-left: 10px;
+}
+
+.card-title {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: #1d1d1b;
+  margin: 0%;
+  padding: 0%;
+  align-self: baseline;
+}
+
+.dispatch-text {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #9b9b9b;
+  padding: 0%;
+  align-self: baseline;
+  margin-bottom: 5px;
+}
+
+.dispatch-date-text {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+  padding: 0%;
+  align-self: baseline;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.view-btn {
+  padding: 5px 15px 5px 15px;
+  background-color: #f7f7f7;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px 0px 15px 0px;
+}
+.view-btn:active {
+  padding: 5px 15px 5px 15px;
+  background-color: #f7f7f7;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  cursor: pointer;
+  user-select: none;
+  margin: 5px 0px 15px 0px;
+}
+
+.view-btn-text {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: #1d1d1b;
+  padding: 0% 10px 0% 0%;
+  margin: 0%;
+}
