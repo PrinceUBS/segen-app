@@ -151,4 +151,23 @@ const newsArr = [
     },
 ];
 
-export { adArray, productAdData, orderArr, shipmentsArr, contactArr, newsArr };
+const DrawerData = [
+    "Account Summary",
+    "Account Messages",
+    "Contact Preferences",
+    "Quotes",
+    "Current Orders",
+    "Planned Shipments",
+    "Payments",
+    "Current Invoices",
+    "History",
+    "Statement",
+    "Warranty",
+    "New Return",
+    "Settings",
+    "PV Leads",
+    "Contact Us",
+    "Log Out"
+]
+
+export { adArray, productAdData, orderArr, shipmentsArr, contactArr, newsArr, DrawerData };

@@ -6,6 +6,7 @@
   padding: 5%;
   background-color: #ffffff;
   background: linear-gradient(180deg, #ffffff 10%, #f5fbff 90%, #ffffff 100%);
+  padding-top: calc(5% + 80px);
 }
 
 .user-info {

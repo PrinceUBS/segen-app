@@ -9,8 +9,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   z-index: 100;
 }
 
@@ -75,4 +75,13 @@
   text-align: center;
   color: #000000;
   letter-spacing: -0.3px;
+}
+
+.menu-btn {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
