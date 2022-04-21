@@ -33,7 +33,7 @@ function App() {
     width: "80vw",
     paddingTop: "80px",
     height: "100%",
-    background: "linear-gradient(180deg, #ffffff, #ffffff 20%, #f5fbff 100%)"
+    background: "linear-gradient(180deg, #ffffff, #ffffff 30%, #f5fbff 100%)"
   }
 
   const list = () => (
