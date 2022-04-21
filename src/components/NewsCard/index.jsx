@@ -2,7 +2,7 @@ import React from 'react';
 import { RIGHT_ARROW_OUTLINE_IC } from '../../assets';
 import { MenuButton } from '../../common/styles';
 import "./newsCard.css";
-const Index = ({ item }) => {
+const Index = ({ item, index, data }) => {
     return (
         <div className="news-container">
             <img src={item.img} alt="news" className="news-img" />

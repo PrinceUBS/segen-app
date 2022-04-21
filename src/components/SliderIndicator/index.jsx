@@ -4,8 +4,8 @@ import "../../pages/Home/home.css";
 const Index = ({ onClickHandler, isSelected, index, label }) => {
     const indicatorStyles = {
         background: '#D6D6D6',
-        width: 8,
-        height: 8,
+        width: 10,
+        height: 10,
         display: 'inline-block',
         borderRadius: '50%',
     };
