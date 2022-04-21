@@ -7,16 +7,16 @@ const Index = ({ onC, DrawerOpened }) => {
         <div className="container">
             <LOGO_IC />
             <div className="menuBar">
-                <MenuButton className="menu-btn" >
+                <MenuButton className="menu-btn" style={{  paddingBottom: 0 }}>
                     <ACCOUNT_IC />
                     <p className='btn-text'>Account</p>
                 </MenuButton>
-                <MenuButton className="menu-btn" style={{ marginLeft: 8 }}>
+                <MenuButton className="menu-btn" style={{ marginLeft: 8, paddingBottom: 0 }}>
                     <BASKET_IC />
                     <p className='btn-text'>Basket</p>
                     <div className="badge">2</div>
                 </MenuButton>
-                <MenuButton onClick={onC} className="menu-btn" style={{ marginLeft: 5 }}>
+                <MenuButton onClick={onC} className="menu-btn" style={{ marginLeft: 5, paddingBottom: 0 }}>
                     {DrawerOpened ? <CLOSE_IC /> : <MENU_IC />}
                     <p className='btn-text'>Menu</p>
                 </MenuButton>
