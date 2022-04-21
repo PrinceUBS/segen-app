@@ -29,22 +29,29 @@ function App() {
     color: "#1d1d1b",
   }
 
+  const listSty = {
+    width: "80vw",
+    paddingTop: "80px",
+    height: "100%",
+    background: "linear-gradient(180deg, #ffffff, #ffffff 20%, #f5fbff 100%)"
+  }
+
   const list = () => (
     <Box
-      sx={{ width: "80vw", paddingTop: "80px" }}
+      sx={listSty}
       role="presentation"
       onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
     >
-      <List>
+      <List style={{ background: "transparent" }}>
         <p className='drawer-header'>Account</p>
         {DrawerData.map((text, index) => (
           <>
             <ListItem button key={text}>
               <ListItemText primaryTypographyProps={{ style: textSty }} primary={text} />
-              {text === "Settings" ? <RIGHT_ARROW_G_IC /> : <></>}
+              {text === "Settings" || text === "Payments" || text === "History" ? <RIGHT_ARROW_G_IC /> : <></>}
             </ListItem>
-            {DrawerData?.length - 1 !== index && <Divider />}
+            {DrawerData?.length - 1 !== index && <Divider style={{ height: "1px", borderColor: "#EEEEEE" }} />}
           </>
         ))}
       </List>
