@@ -68,7 +68,9 @@ const Index = () => {
                 emulateTouch
                 autoPlay
                 infiniteLoop
-                interval={10000}
+                interval={15000}
+                swipeScrollTolerance={1}
+                preventMovementUntilSwipeScrollTolerance
                 renderIndicator={(onClickHandler, isSelected, index, label) => {
                     return (
                         <SliderIndicator
